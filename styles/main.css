@@ -1,0 +1,30 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contentBox {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10%;
+}
+
+.contenBox__img {
+  background: rgb(129, 129, 129);
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.contentBox__range {
+  margin-top: 60px;
+  width: 300px;
+}
+
+.contentBox__text {
+  margin-top: 20px;
+  padding: 5px 10px;
+  width: 300px;
+}
