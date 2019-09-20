@@ -7,7 +7,7 @@ function handleLoad() {
   //Aquí cambiamos el fondo del DIV
   function handleText() {
     var value = text.value;
-    img.style.background = "url(" + value + ")";
+    img.style.backgroundImage = "url(" + value + ")";
   }
 
   text.addEventListener('input', handleText);
