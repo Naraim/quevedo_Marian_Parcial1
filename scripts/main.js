@@ -4,17 +4,17 @@ function handleLoad() {
   var range = document.querySelector('.contentBox__range');
   var text = document.querySelector('.contentBox__text');
 
-  function handleText(event) {
-    //console.log(event);
+  //Aquí cambiamos el fondo del DIV
+  function handleText() {
     var value = text.value;
     img.style.background = "url(" + value + ")";
   }
 
   text.addEventListener('input', handleText);
 
+  //Aquí rotamos la imagen
   function handleRange() {
     var value = range.value;
-    //console.log(value);
     img.style.transform = "rotate(" + value + "deg)";
   }
 
